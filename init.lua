@@ -6,6 +6,10 @@ vim.opt.shiftwidth = 4   -- Size of an indent
 vim.opt.expandtab = true -- Turn tabs into spaces
 vim.opt.termguicolors = true -- For nvim-notify
 
+-- line numbers
+vim.opt.nu = true
+vim.opt.relativenumber = true
+
 -- Use nvim-notify for hardtime and i guess other stuff
 vim.notify = require("notify")
 
